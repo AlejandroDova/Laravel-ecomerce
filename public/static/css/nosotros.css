@@ -1,0 +1,187 @@
+body{
+    margin: 0px;
+}
+
+
+.presentacion img{
+    width: 100%;
+    height: auto;
+}
+
+.presentacion{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.presentacion::before{
+    content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+}
+.presentacion h1{
+    position: absolute;
+    font-size: 82px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.navbar-toggler{
+    color: white;
+    border-color: white;
+}
+.navbar-toggler-icon{
+    color: white;
+    border-color: white;  
+}
+
+.navbar a{
+    color: #E67CAD;
+}
+.navbar a:hover{
+    color: #B41E5B;
+    transform: scale(1.1);
+    transition: all ease 0.1s;
+}
+
+.navbar{
+    background: #f2f2f2;
+}
+
+.Quehacemos{
+    padding-top: 32px;
+}
+.Quehacemos hr{
+    padding-top: 5px;
+    padding-left: 23%;
+    padding-right: 23%;
+}
+.Quehacemos h1{
+    font-size: 24px;
+    padding-left: 20%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Quehacemos p{
+    padding-top: 16px;
+    padding-left: 23%;
+    padding-right: 23%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mv{
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: auto;
+}
+.mv h1{
+    font-size: 24px;
+    padding-left: 20%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.mv .mision{
+    box-shadow: 2px 2px 5px #E67CAD;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-top: 64px;
+    padding: 10px;
+}
+
+.mv .vision{
+    box-shadow: 2px 2px 5px #E67CAD;
+    margin-left: 23%;
+    margin-right: 23%;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    padding: 10px;
+}
+
+.equipo{
+    padding-top: 32px;
+}
+
+.equipo h1{
+    font-size: 24px;
+    padding-left: 20%;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 64px;
+}
+
+.card-group{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.card{
+    padding: 20px;
+}
+.pd16{
+    padding-left: 16px;
+}
+.contacto{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+    width: 45%;
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+.containerContacto h1{
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 64px;
+}
+
+.filosofia{
+    margin: 20px;
+}
+
+.info{
+    font-family: 'Raleway', sans-serif;
+}
+
+.filosofia .special-card{
+    background-color: rgba(245, 245, 245, 1);
+  opacity: .4;
+}
+
+.filosofia h1{
+    font-size: 24px;
+    padding-left: 20%;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 64px;
+}
+
+
+
+.info{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 57px;
+    float: left;
+    position: relative;
+    width: 45%;
+    height: auto;
+}
+
+@media screen and (max-width:800px){
+    .presentacion{
+        height: auto;
+    }
+    .presentacion h1{
+        font-size: 32px;
+    }
+}

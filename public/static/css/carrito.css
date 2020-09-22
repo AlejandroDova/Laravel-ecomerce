@@ -1,0 +1,56 @@
+.buttons-group{
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-carrito{
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    color: white;
+    background-color: #E67CAD;
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    text-justify: distribute;
+    padding-top: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-left: 10px;
+}
+
+.btn-carrito:hover{
+    text-decoration: none;
+    color: white;
+    scale: 1;
+    background-color: #B41E5B;
+
+    transform: scale(1.1);
+    box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+    transition: all ease 0.1s;
+}
+.table td img{
+    align-content: center;
+    height: 100px;
+    width: 100px;
+}
+.Dnohay img{
+    height: 250px;
+    width: 200px;
+}
+.nohay{
+
+    font-family: 'Antic Didone', serif;
+    color: #646B63;
+    padding-left: 5px;
+    font-size: 32px;
+}   
+
+.btn .btn-primary .btn-lg{
+    background-color: thistle;
+}

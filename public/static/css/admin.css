@@ -1,0 +1,84 @@
+body{
+    font-size: 14px;
+    background-color: #f5f6fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.mtop16{
+    margin-top: 16px;
+}
+
+.wrapper .col1{
+    float: left;
+    position: relative;
+    z-index: 999;
+    width: 17%;
+}
+
+.wrapper .col2{
+    float: right;
+    width: 83%;
+}
+
+.wrapper .col1 .sidebar{
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.wrapper .col1 .sidebar .section-top{
+    background-color: #5988a8;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.wrapper .col1 .sidebar .section-top .logo{
+    display: block;
+    margin: 0px auto;
+    padding-top: 24px;
+    width: 60%;
+}
+.wrapper .col1 .sidebar .section-top .user{
+    color: #fff;
+    padding:16px ;
+    font-size: 1.2em;
+}
+.wrapper .col1 .sidebar .main{
+    display: block;
+    margin-top: 18px;
+}
+.wrapper .col1 .sidebar .main ul{
+    padding-left: 0px;
+    list-style:none;
+}
+.wrapper .col1 .sidebar .main ul li {
+    margin-bottom: 4px;
+}
+.wrapper .col1 .sidebar .main ul li a{
+    padding-left: 10px;
+    color: #8998ac;
+    display: block;
+    font-size: 1.1em;
+    outline-style: none;
+
+}
+.wrapper .col1 .sidebar .main ul li a .fas{
+    padding-right: 10px;
+}
+
+.wrapper .col1 .sidebar .main ul li a:hover{
+    background-color: #5988a8 ;
+    color: #fff;
+}
+
+.wrapper .col2 .page{
+    padding-top: 0px;
+}
+
+.wrapper .col2 .page .breadcrumb{
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.10);
+}

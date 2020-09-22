@@ -1,0 +1,99 @@
+.slider-box{
+    height: 350px;
+    width: 250px;
+    position: relative;
+    background-color: #FFF;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.slider-box a{
+    text-decoration: none;
+    text-align: center;
+}
+.img-box{
+    height: 170px;
+}
+.img-box img{
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 35px;
+}
+
+.price{
+    color: #CB3234;
+    line-height: 20px;
+    text-decoration: none;
+    text-decoration-style: none;
+}   
+.tachado {
+    text-decoration: line-through;
+}
+.cart{
+    position: absolute;
+    bottom: 0px;
+    height: 45px;
+    background-color: #E67CAD;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart a{
+    color: #FFF;
+   
+}
+
+.slider-box:hover{
+    box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+}
+
+.cart:hover{
+    transform: scale(1.1);
+    background-color: #B41E5B;
+    box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+    transition: all ease 0.1s;
+}
+
+.carousel {
+    padding: 32px 32px;
+    
+    width:1300px;
+    height:400px;
+}
+
+.grid_productos{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(3,lfr);
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.time{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: #B41E5B;
+}
+
+@media screen and (max-width:800px){
+    .carousel {
+        padding: 0px 0px;
+        left: calc(50% - 160PX);
+        width:auto;
+        height:auto;
+    }
+}

@@ -1,0 +1,66 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    margin: 0;
+    font-family:  'Raleway', sans-serif;
+    background-color: #f3f3f3;
+    
+}
+
+.navbar{
+    /* background: linear-gradient(to bottom, #B41E5B, #E67CAD);*/
+    background-color: white;
+    border-bottom: #B41E5B;
+}
+.btn{
+    border-color: #B41E5B;
+    color: #E67CAD;
+}
+.btn:hover{
+    border-color: #B41E5B;
+    background-color: white;
+    color: #B41E5B;
+}
+.navbar a{
+    color: #E67CAD;
+}
+.navbar a:hover{
+    color: #B41E5B;
+    transform: scale(1.1);
+    transition: all ease 0.1s;
+}
+footer{
+    background-color: #FFF;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    color: gray;
+    bottom: 0;
+}
+
+.contacto a{
+    text-decoration: none;
+}
+
+.abajo p{
+    font-size: 12px;
+}
+.navbar-toggler{
+    color: white;
+    border-color: white;
+}
+
+.navbar-toggler-icon{
+    color: white;
+    border-color: white;  
+}
+
+.slifercontent h1{
+    font-family: 'Antic Didone', serif;
+    color: #646B63;
+    padding-left: 5px;
+    font-size: 32px;
+}

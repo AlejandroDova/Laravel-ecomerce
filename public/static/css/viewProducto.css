@@ -1,0 +1,94 @@
+
+.contentmaster{
+    overflow: hidden;
+    margin-bottom: 300px;
+    width: 100%; 
+    height: 400px;
+}
+.divA{
+    float: left;
+    width: 40%;
+    height: 400px;
+}
+.divB{
+    float: right;
+    padding: 5px;
+    width: 60%;
+}
+.titulo{
+    font-size: 20px;
+}
+
+.btn-carrito{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #E67CAD;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    display: block;
+    padding-top: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.btn-carrito:hover{
+    text-decoration: none;
+    color: white;
+    scale: 1;
+    background-color: #B41E5B;
+
+    transform: scale(1.08);
+    box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+    transition: all ease 0.1s;
+}
+
+.divA img{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+ .contentDivb{
+     padding: 15px;
+ }
+
+ @media screen and (max-width:800px){
+    .btn-carrito{
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        background-color: #E67CAD;
+        width: 100%;
+        height: 50px;
+        border-radius: 5px;
+        display: block;
+        padding-top: 10px;
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+    .contentmaster{
+        position: relative;
+        width: 100%; 
+        height: 550px;
+    }
+    .divA{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .divB{
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .divA img{
+        width:250PX;
+        height: 250PX;
+        padding: 15px;
+    }
+    
+}
